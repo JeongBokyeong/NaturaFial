@@ -25,8 +25,8 @@ function App() {
               {/* <Contents/> */}
             {/* </div> */}
           {/* }/> */}
-          <Route path='/Donation' element={<Donation/>}/>
-          <Route path='/AboutUs' element={Aboutus}/>
+          <Route path='/donation' element={<Donation/>}/>
+          {/* <Route path='/AboutUs' element={<img src={Aboutus} />}/> */}
           </Routes>
           
       </div>

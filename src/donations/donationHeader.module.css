@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     text-align: center;
 }
 .menuBar {
@@ -58,14 +58,4 @@ li a:hover:before {
     position:relative;
  }
  /* hide li when scrolling down */
- .menuBar > li   {
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: all 0.4 ease-in-out;
- }
- /* show li when scrolling up */
- .menuBar:active {
-    opacity: 1;
-    transform: translateY(0px);
-    transition: all 0.4 ease-in-out;
- }
+ 

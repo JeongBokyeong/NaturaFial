@@ -8,7 +8,6 @@ import ChatIcon from '../Logo/Chat.png';
 import MainLogo from '../Logo/MainLogo.png';
 import SearchIcon from '../Logo/SearchIcon.png';
 import React from 'react';
-import Donation  from '../donations/donationMain';
 import { Route, Link } from 'react-router-dom';
 
 function Header() {
@@ -72,10 +71,10 @@ function Header() {
               동물분양
             </a> 
             <a href='#'>커뮤니티</a>
-            <Link to = '/donation'>모금</Link>
+            <Link to ='/donation'>모금</Link>
             <Link to="/aboutus">ABOUT US</Link>
           </div>
-          <hr className={HeaderStyle.headerHrShadow}/>
+          {/* <hr className={HeaderStyle.headerHrShadow}/> */}
         {/* </div> */}
       </header>
     // </BrowserRouter>
