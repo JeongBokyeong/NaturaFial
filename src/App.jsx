@@ -5,8 +5,12 @@ import AppStyle from './App.module.css';
 import Header from './components/Header';
 import Contents from './components/Contents';
 import Donation  from './donations/donationMain';
+import AboutUs from './aboutus/AboutusMain';
 import Banner from './Banner/Intro.png';
-import Aboutus from './AboutUs.png'
+import AllCategories from './allCategories/categoryMain';
+import AdoptMain from './adopt/adopMain';
+import Community from './community/communityMain';
+
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
@@ -15,18 +19,15 @@ function App() {
     <BrowserRouter>
       <div className={AppStyle.wrapper}>
         <Header/>
-        < img src={Banner} alt="banner" className={AppStyle.Banner} />
+        {/* < img src={Banner} alt="banner" className={AppStyle.Banner} /> */}
           
         <Routes>
           <Route path="/" element={<Contents/>}/>
-          {/* <Route path="/" element={ */}
-             {/* <div className={AppStyle.wrapper}> */}
-               {/* <Header /> */}
-              {/* <Contents/> */}
-            {/* </div> */}
-          {/* }/> */}
           <Route path='/donation' element={<Donation/>}/>
-          {/* <Route path='/AboutUs' element={<img src={Aboutus} />}/> */}
+          <Route path='/aboutus' element={<AboutUs/>}/>
+          <Route path='/allCategories' element={<AllCategories/>}/>
+          <Route path='/adopt' element={<AdoptMain/>}/>
+          <Route path='/community' element={<Community/>}/>
           </Routes>
           
       </div>

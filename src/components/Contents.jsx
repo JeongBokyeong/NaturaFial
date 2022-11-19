@@ -10,6 +10,8 @@ import shop1 from '../shopImgs/shop1.png';
 import shop2 from '../shopImgs/shop2.png';
 import shop3 from '../shopImgs/shop3.png';
 import Likes from './likes'
+import DropDownMenu from './DropDownMenu';
+
 
 import snakeHovered from '../AnimalIcons/snakeHovered.png';
 import parrotHovered from '../AnimalIcons/parrotHovered.png';
@@ -164,6 +166,7 @@ function Contents(){
             "detail2" : "유리앵무 / 사랑앵무 / 모란앵무 /왕관앵무 / 로리앵무"
         }
     ]
+
     return (
         <contents className = {ContentsStyle.contentContainer}>
             <div>
@@ -260,6 +263,12 @@ function Contents(){
             <div className={ContentsStyle.moreShops}>
                 <a href='#'>더보기</a>
             </div>
+            <DropDownMenu></DropDownMenu>
+            {/* add white space */}
+            <div className = {ContentsStyle.whiteSpace2}></div>
+            <div className = {ContentsStyle.whiteSpace2}></div>
+            <div className = {ContentsStyle.whiteSpace2}></div>     
+
     </contents>
     )
 }
