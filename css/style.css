@@ -1,0 +1,162 @@
+.main { 
+    position: absolute;
+    width: 100%;
+    left: 10px;
+    top: 10px;
+}
+
+/*fade in*/
+body {
+  opacity: 1;
+  transition-duration: 1s;
+  transition-property: opacity;
+}
+
+body.fade {
+  opacity: 0;
+}
+
+div {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 5%;
+}
+
+/* Make the image responsive */
+.container img {
+  position: relative;
+  width: 150%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: relative;
+  top: 6.7%;
+  left: 710px;
+  background-color: #13B861;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50px;
+}
+
+.container .btn:hover {
+  background-color: #13B861;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.Container {
+  width: 0px;
+}
+
+/* Make the image responsive */
+.Container img {
+  width: 80px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.Container .btn {
+  position: absolute;
+  top: 37%;
+  left: 738px;
+  border: none;
+  cursor: pointer;
+  width: 1px;
+  height: 1px;
+  color : transparent;
+}
+
+.Container .btn:hover {
+  background-color: transparent;
+}
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.ccontainer {
+  width: 0px;
+}
+
+/* Make the image responsive */
+.ccontainer img {
+  width: 80px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.ccontainer .btn {
+  position: absolute;
+  top: 37%;
+  left: 738px;
+  border: none;
+  cursor: pointer;
+  width: 1px;
+  height: 1px;
+  color : transparent;
+}
+
+.ccontainer .btn:hover {
+  background-color: transparent;
+}
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.CContainer {
+  width: 0px;
+}
+
+/* Make the image responsive */
+.CContainer img {
+  width: 80px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.CContainer .btn {
+  position: absolute;
+  top: 37%;
+  left: 738px;
+  border: none;
+  cursor: pointer;
+  width: 1px;
+  height: 1px;
+  color : transparent;
+}
+
+.CContainer .btn:hover {
+  background-color: transparent;
+}
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.gontainer {
+  width: 0px;
+}
+
+/* Make the image responsive */
+.gontainer img {
+  width: 80px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.gontainer .btn {
+  position: absolute;
+  top: 37%;
+  left: 738px;
+  border: none;
+  cursor: pointer;
+  width: 1px;
+  height: 1px;
+  color : transparent;
+}
+
+.gontainer .btn:hover {
+  background-color: transparent;
+}
+
+
